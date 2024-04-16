@@ -14,7 +14,7 @@ function Roompage() {
           sharedLinks:[
             {
               name:'copy link',
-              url:`https://vercel.com/vinay-jadauns-projects/group-meeting-app/${roomId}`,
+              url:`https://vercel.com/vinay-jadauns-projects/group-meeting-app.vercel.app/${roomId}`,
             }
           ],
           scenario:{
