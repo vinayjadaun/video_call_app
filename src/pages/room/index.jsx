@@ -13,8 +13,8 @@ function Roompage() {
     const{roomId}=useParams();
     const vin=window.location.href
     const myMeeting = async(element)=>{
-        const appID=40142866;
-        const serverSecret="a7eb699d70e299fb71b040c29f02948b";
+        const appID=1520029486;
+        const serverSecret="5d03ef86ac072456f0d3321b21de0197";
         const kitToken=ZegoUIKitPrebuilt.generateKitTokenForTest(appID,serverSecret,roomId,Date.now().toString(),"Vinay Jadaun");
         const zc=ZegoUIKitPrebuilt.create(kitToken);
         // ${roomId}
